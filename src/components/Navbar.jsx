@@ -108,7 +108,7 @@ export default function Navbar() {
             { href: "https://www.linkedin.com/in/tayyab-zaman/", icon: FaLinkedin, label: "LinkedIn" },
             { href: "https://github.com/tayyabzaman1357", icon: FaGithub, label: "GitHub" },
             { href: "mailto:tayyabzaman807@gmail.com", icon: FaEnvelope, label: "Email" },
-            { href: "https://github.com/Tayyabzaman1357/PORTFOLIO.git", icon: FaCode, label: "Codolio" },
+            { href: "https://github.com/Tayyabzaman1357/TZ-Portfolio.git", icon: FaCode, label: "Codolio" },
           ].map((social) => {
             const isMail = social.href.startsWith("mailto");
             if (isMail) {
